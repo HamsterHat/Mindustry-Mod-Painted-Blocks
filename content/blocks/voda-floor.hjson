@@ -1,0 +1,5 @@
+variants: 1
+status: wet
+statusDuration: 120
+liquidDrop: voda
+isLiquid: true

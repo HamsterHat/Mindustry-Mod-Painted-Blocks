@@ -1,0 +1,48 @@
+type: ItemTurret
+name: Град
+size: 2
+outlineIcon: false
+health: 100
+rotateSpeed: 20
+targetAir: true
+targetGround: true
+range: 170
+shootCone: 3
+shootSound: shoot
+spread:10
+inaccuracy: 3.5
+
+ammoTypes: {
+ coper: {
+        type: BasicBulletType
+        hitSize: 8
+        lifetime: 100
+        pierce: true
+        width: 5
+        height: 15
+        length: 15
+        despawnEffect: none
+        hitEffect: blastExplosion
+        shootEffect: shootBig
+        smokeEffect: shootBigSmoke
+        collidesAir: false
+        statusDuration: 600
+        status: none
+        hittable: false
+        speed: 4
+        damage: 50
+
+  }
+    }
+requirements: [
+  coper/30
+  svinec/30
+  titan/15
+]
+category: turret
+research: autopuska
+
+
+
+
+

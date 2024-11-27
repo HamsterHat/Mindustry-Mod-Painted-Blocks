@@ -1,0 +1,6 @@
+type: material
+name: Титан
+description: Базовый ресурс
+cost: 1
+color: 483D8B
+hardness: 1

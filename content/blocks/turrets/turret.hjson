@@ -1,0 +1,47 @@
+type: ItemTurret
+name: Пулемёт
+size: 1
+outlineIcon: false
+health: 100
+rotateSpeed: 20
+targetAir: true
+targetGround: true
+range: 125
+shootCone: 3
+shootSound: shoot
+spread:10
+inaccuracy: 3.5
+
+ammoTypes: {
+ coper: {
+ 	BulletSprite: mod-bullet1
+        type: BasicBulletType
+        hitSize: 5
+        lifetime: 25
+        pierce: true
+        width: 1
+        height: 1
+        length: 1
+        despawnEffect: none
+        hitEffect: hitBulletSmall
+        shootEffect: shootSmall
+        smokeEffect: shootSmallSmoke
+        collidesAir: false
+        statusDuration: 600
+        status: none
+        hittable: false
+        speed: 4
+        damage: 5
+
+  }
+    }
+requirements: [
+  coper/30
+]
+category: turret
+research: duo
+
+
+
+
+

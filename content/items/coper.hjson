@@ -1,0 +1,6 @@
+type: material
+name: Медь
+description: Базовый ресурс
+cost: 1
+color: d2691e
+hardness: 1

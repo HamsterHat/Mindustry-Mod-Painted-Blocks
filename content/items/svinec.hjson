@@ -1,0 +1,6 @@
+type: material
+name: Свинец
+description: Базовый ресурс
+cost: 1
+color: 800080
+hardness: 1

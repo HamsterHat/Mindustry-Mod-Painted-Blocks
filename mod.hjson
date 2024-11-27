@@ -1,0 +1,8 @@
+name: "mod"
+displayName: "Painted Blocks Mod"
+"author": "[red]a[blue]l[white]ex"
+description: "Simple mod"
+version: "1.3"
+minGameVersion: "142"
+dependencies: []
+hidden: false
